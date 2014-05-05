@@ -1,0 +1,31 @@
+{
+  "name": "skia-canvas",
+  "version": "0.1.0",
+  "description": "Image manipulation with Skia in Node.",
+  "main": "skia.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "make test",
+    "install": "./installskia.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://skia.googlesource.com/skia.git"
+  },
+  "keywords": [
+    "graphics",
+    "images",
+    "png",
+    "jpeg",
+    "skia"
+  ],
+  "author": "jcgregorio@google.com",
+  "license": "MIT",
+  "gypfile": true,
+  "devDependencies": {
+    "depot_tools": "0.0.4"
+  }
+}
